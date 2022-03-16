@@ -1,0 +1,69 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.to-do-list {
+  display: flex;
+  width: 400px;
+  height: 100%;
+  padding: 4vw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 50px;
+  width: 500px;
+  overflow: hidden;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #cccccc;
+  border-radius: 25px;
+  margin-bottom: 5px;
+}
+
+.rowContainer {
+  /* width: 65%; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-weight: bold;
+  color: indigo;
+  /* padding: 0; */
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 90%;
+  border: 0;
+  line-height: 2em;
+  border-bottom: 1px solid black;
+}
+
+span {
+  padding: 10px;
+}
+
+.filter {
+  cursor: pointer;
+}
